@@ -110,5 +110,28 @@ appendToResume(bio.welcomeMessage, HTMLWelcomeMsg, "#header");
 $("#header").append(HTMLskillsStart);
 appendToResume(bio.skills, HTMLskills, "#skills"); */
 
+/var education ={
+	"schools" : [
+	{
+		"name" : "university of heaven",
+		"city" : "egypt",
+		"degree" : "master",
+		"major" : ["compsci","english"]
+	},
+	{
+		"name" : "university of hell",
+		"city" : "jerusalem",
+		"degree" : "master",
+		"major" : ["compsci"]
+	}
+				],
+
+		"onlineCourse" : [
+	{
+		"title" : "html, css, javascript",
+		"org" : "udacity"
+	}
+						]
+				}
 
 
